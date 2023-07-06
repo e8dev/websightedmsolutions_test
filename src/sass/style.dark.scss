@@ -1,0 +1,49 @@
+// Mode
+$mode: dark;
+// Initialize
+@import 'init';
+// Components
+@import './core/components/components';
+// Layout
+@import './core/layout/docs/layout';
+
+@import './general';
+
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  font-display: swap;
+  src: local('SpaceGrotesk'), url("./fonts/space_grotesk/SpaceGrotesk-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  font-display: swap;
+  font-weight: 300;
+  src: local('SpaceGrotesk'), url("./fonts/space_grotesk/SpaceGrotesk-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  font-display: swap;
+  font-weight: 700;
+  src: local('SpaceGrotesk'), url("./fonts/space_grotesk/SpaceGrotesk-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'KhumbhSans';
+  font-display: swap;
+  src: local('SpaceGrotesk'), url("./fonts/khumbh_sans/KumbhSans-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'KhumbhSans';
+  font-weight: 600;
+  font-display: swap;
+  src: local('SpaceGrotesk'), url("./fonts/khumbh_sans/KumbhSans-SemiBold.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'KhumbhSans';
+  font-weight: 700;
+  font-display: swap;
+  src: local('SpaceGrotesk'), url("./fonts/khumbh_sans/KumbhSans-Bold.ttf") format('truetype');
+}
